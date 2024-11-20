@@ -95,8 +95,8 @@ categories = {
     ]
 }
 
-bins = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200, 300, 500, 1000]  # Extend this list if needed
-
+bins = [0, 500, 1000, 1500]  # Extend this list if needed
+subdirectories = ["first_half", "second_half"]
 def calculate_month(filename):
     weeks = int(filename[:3])
     months = weeks // 4
